@@ -1,5 +1,6 @@
 import Vue from 'vue'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import VueRouter from 'vue-router'
 import movieRouter from './movie'
 
@@ -19,6 +20,16 @@ const routes = [
 
 const router = new VueRouter({
 =======
+const router = new Router({
+>>>>>>> 6bbd04e6f55dab79d0f7b5b7a5127cd5b6ac6296
+=======
+import Router from 'vue-router'
+import cinemaRouter from './cinema'
+import mineRouter from './mine'
+import movieRouter from './movie'
+
+Vue.use(Router)
+
 const router = new Router({
 >>>>>>> 6bbd04e6f55dab79d0f7b5b7a5127cd5b6ac6296
   mode: 'history',

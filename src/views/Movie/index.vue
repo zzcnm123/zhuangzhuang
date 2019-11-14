@@ -6,6 +6,7 @@
 
 <script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 export default {
     
 }
@@ -14,6 +15,8 @@ export default {
 <style lang="">
     
 =======
+=======
+>>>>>>> 6bbd04e6f55dab79d0f7b5b7a5127cd5b6ac6296
     export default{
 
     }
@@ -22,5 +25,8 @@ export default {
 
 <style>
 
+<<<<<<< HEAD
+>>>>>>> 6bbd04e6f55dab79d0f7b5b7a5127cd5b6ac6296
+=======
 >>>>>>> 6bbd04e6f55dab79d0f7b5b7a5127cd5b6ac6296
 </style>
