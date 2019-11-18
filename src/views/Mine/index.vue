@@ -1,19 +1,25 @@
 <template>
-    <div>
-        hello Mine
+    <div id="main">
+        <Header title="你的壮壮"></Header>
+            <div id="content">
+                <h3>Login</h3>
+            </div>
+        <TabBar></TabBar>
     </div>
 </template>
 
 <script>
-<<<<<<< HEAD
+import Header from '@/components/Header';
+import TabBar from '@/components/TabBar';
+import Login from '@/components/Login'
 export default{
-
-}
-=======
-    export default{
-
+    name:'Mine',
+    components:{
+        Header,
+        TabBar,
+        Login
     }
->>>>>>> 65bf9e61397c7fe6be945d032d95955dc3a9d6bd
+}
 </script>
 
 

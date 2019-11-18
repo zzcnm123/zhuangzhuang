@@ -1,21 +1,27 @@
 <template>
-    <div>
-        hello Cinema
+    <div id="main">
+        <Header title="壮壮影院"></Header>
+        <div id="content">
+            <CinemaList></CinemaList>
+        </div>
+        <TabBar></TabBar>
     </div>
 </template>
 <script>
-<<<<<<< HEAD
+import Header from '@/components/Header';
+import TabBar from '@/components/TabBar';
+import CinemaList from '@/components/CinemaList'
 export default{
-
-}
-=======
-    export default{
-
+    name:'Cinema',
+    components:{
+        Header,
+        TabBar,
+        CinemaList
     }
->>>>>>> 65bf9e61397c7fe6be945d032d95955dc3a9d6bd
+}
 </script>
 
 
-<style>
+<style scoped>
 
 </style>
